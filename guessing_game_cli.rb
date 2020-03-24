@@ -2,7 +2,7 @@
 def run_guessing_game
   puts "Guess a number between 1 and 6."
   random_number = 1+rand(6)
-  user_input = gets.chomp.to_s
+  user_input = gets.chomp
   if user_input == random_number
     return "You guessed the correct number!"
   elsif 
